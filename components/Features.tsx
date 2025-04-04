@@ -1,39 +1,23 @@
 import React from "react";
 import FeatureCard from "./FeatureCard";
-import { FaReact, FaDatabase, FaShieldAlt } from "react-icons/fa";
-import { SiNextdotjs, SiTailwindcss, SiStripe } from "react-icons/si";
+import { Inbox, Zap, PenTool } from "lucide-react";
 
 const Features = () => {
   const features = [
     {
-      icon: SiNextdotjs,
-      title: "Next.js 14",
-      description: "App dir, Routing, Layouts, components, and more.",
+      icon: Inbox,
+      title: "Smart CRM & Inbox",
+      description: "Track leads, manage contacts, and follow up automatically. All in one dashboard.",
     },
     {
-      icon: FaReact,
-      title: "React 18",
-      description: "Server and Client Components. using hooks and context.",
+      icon: Zap,
+      title: "AI Funnel Builder",
+      description: "Create automated sales funnels with WhatsApp integration. No code. No stress.",
     },
     {
-      icon: FaDatabase,
-      title: "Database",
-      description: "Postgres basic database and other cool features to come.",
-    },
-    {
-      icon: SiTailwindcss,
-      title: "Components",
-      description: "Awesome components built with Tailwind CSS and more to come.",
-    },
-    {
-      icon: FaShieldAlt,
-      title: "Authentication",
-      description: "Talk about your authentication features built into your app.",
-    },
-    {
-      icon: SiStripe,
-      title: "Subscriptions",
-      description: "Talk about your subscription features and how they work.",
+      icon: PenTool,
+      title: "Content & Campaign Engine",
+      description: "Plan, generate, and schedule high-converting content for multiple channels in minutes.",
     },
   ];
 
